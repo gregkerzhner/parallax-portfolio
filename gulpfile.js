@@ -31,24 +31,11 @@ gulp.task('scripts', function() {
     //.pipe(gulp.dest('dist'));
 });
 
-gulp.task('styles-compile', function () {
-  console.log("sassing")
-  return gulp.src(['./app/vendors/bootstrap/dist/css/bootstrap.min.css','./app/styles/app.scss'])
-    .pipe(sass())
-    .pipe(gulp.dest('./styles-compile'))
-});
-
-gulp.task('styles-concat', function () {
-  console.log("sassing")
-  return gulp.src('styles-compile/*.css')
-    .pipe(concat('styles.css'))
-    .pipe(gulp.dest('./public/stylesheets'))
-});
-
 gulp.task('styles', function() {
-    runSequence('styles-concat', 'styles-compile', function() {
-        console.log('Run something else');
-    });
+    return gulp.src(['./app/vendors/bootstrap/dist/css/bootstrap.min.css','./app/styles/app.scss'])
+      .pipe(concat('styles.css'))
+      .pipe(sass())
+      .pipe(gulp.dest('./public/stylesheets'));
 });
 
 gulp.task('watch', function() {

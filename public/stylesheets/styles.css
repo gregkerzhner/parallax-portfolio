@@ -1,4 +1,3 @@
-
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -4692,3 +4691,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+html {
+  background-color: yellow; }
