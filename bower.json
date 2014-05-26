@@ -1,10 +1,13 @@
 {
-  "name": "gulp-project-template",
-  "version": "0.0.4",
-  "homepage": "https://github.com/bernardogfilho/gulp-project-template",
+  "name": "Greg Kerzhner",
   "authors": [
-    "Bernardo Gurgel <bernardogfilho@gmail.com>"
+    "Greg Kerzhner"
   ],
+  "dependencies": {
+    "bower-skrollr": "*",
+    "bootstrap": "*",
+    "jquery":"*"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
