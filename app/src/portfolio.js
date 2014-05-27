@@ -1,1 +1,3 @@
-alert("yellow")
+(function(){
+  var s = skrollr.init()
+})();

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greg Kerzhner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+</head>
+<body>
+ <div class="container-fluid">
+ 	<div class="row" id="photo-1" >
+ 		<div class="col-md-12" 
+ 			data-bottom-top="background-position: 0px 0%;" 
+ 			data-top-bottom="background-position: 0px 100%;"
+ 		>
+ 			<div class="freestone">
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="col-md-8 col-md-offset-2">
+	 		My name is Greg Kerzhner and I am a rock climber and software engineer. I started rock climbing at the age of 8 in a local climbing gym; computer programming came into my life during high school.
+			Since those early days I have been pursued both climbing and engineering to the fullest. I was fortunate enough to get a scholarship to study Computer Science at Duke University and got to learn solid fundamentals of our industry from some awesome professors. In parallel, yet somewhat less formally, I have pursued climbing with achievements such as v10 bouldering, 5.14b sport climbing and a free ascent of the incredible 3000 foot Freerider on Yosemite's El Capitan.
+			Being passionate about climbing and software can be a challenging thing to balance. However, I ultimately believe the two go hand and hand. Climbing has taught me to solve large, often scary challenges calmly and one small step at a time, and of course, such a mentality is very relevant in software development as well. Software, one the other hand, has taught me teamwork, efficiency and attention to detail, all things that come in handy when you are high on a rock face.
+			Currently, I am building software applications for GoPro, working on the whole stack and perfecting my code skills. Concurrently, I am traveling the world perfecting my climbing skills and trying to be the best climber I can be.
+		</div>
+ 	</div>
+ 	 <div class="row" id="photo-2" >
+ 		<div class="col-md-12 jailhouse" 
+ 			data-bottom-top="background-position: 0px 0%;" 
+ 			data-top-bottom="background-position: 0px 100%;"
+ 		>
+ 		</div>
+ 		<div class="col-md-8 col-md-offset-2">
+	 		My name is Greg Kerzhner and I am a rock climber and software engineer. I started rock climbing at the age of 8 in a local climbing gym; computer programming came into my life during high school.
+			Since those early days I have been pursued both climbing and engineering to the fullest. I was fortunate enough to get a scholarship to study Computer Science at Duke University and got to learn solid fundamentals of our industry from some awesome professors. In parallel, yet somewhat less formally, I have pursued climbing with achievements such as v10 bouldering, 5.14b sport climbing and a free ascent of the incredible 3000 foot Freerider on Yosemite's El Capitan.
+			Being passionate about climbing and software can be a challenging thing to balance. However, I ultimately believe the two go hand and hand. Climbing has taught me to solve large, often scary challenges calmly and one small step at a time, and of course, such a mentality is very relevant in software development as well. Software, one the other hand, has taught me teamwork, efficiency and attention to detail, all things that come in handy when you are high on a rock face.
+			Currently, I am building software applications for GoPro, working on the whole stack and perfecting my code skills. Concurrently, I am traveling the world perfecting my climbing skills and trying to be the best climber I can be.
+		</div>
+ 	</div>
+ </div>
+</body>
+<script type="text/javascript" src="javascripts/app.js"></script>
+</html>
+<!--
+    <div class="col-md-12 full-image  data-bottom-top="background-position: 0px 40%;" data-top-bottom="background-position: -40px 50%;"  style="background-position: 0px 46.50727650727651%;"></div>
+        <div class="hsContent">
+          <div class="plaxEl skrollable skrollable-between" data-106-top="opacity: 0" data--30p-top="opacity: 1;" data--60p-top="opacity: 0;" data-bottom="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;"  style="opacity: 0.8167651800107473; position: fixed; top: 206px; width: 100%; left: 0px;">
+
+        </div>
+    </div>
+   -->

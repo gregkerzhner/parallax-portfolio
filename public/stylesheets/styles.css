@@ -4692,5 +4692,60 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-html {
-  background-color: yellow; }
+.pipedream {
+  background: url('../images/pipedream.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden; }
+
+.freestone {
+  background: url('../images/freestone.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  width: 100%;
+  min-height: 700px;
+  overflow: hidden; }
+
+.jailhouse {
+  background: url('../images/jailhouse.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden; }
+
+.mobile-show {
+  display: none; }
+
+.desktop-show {
+  display: block; }
+
+body {
+  font-size: 30px; }
+
+@media all and (max-width: 900px) and (min-width: 600px) {
+  .freestone {
+    background: url('../images/freestone.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    background-position: 0px 0px;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden; }
+  .desktop-show {
+    display: none; }
+  .mobile-show {
+    display: block; } }

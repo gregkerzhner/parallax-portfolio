@@ -1,3 +1,57 @@
-html{
-  background-color: yellow;
+
+@mixin full-image($src, $minHeight, $backgroundPosition){
+  background: url($src) no-repeat center center $backgroundPosition; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  width: 100%;
+  min-height: $minHeight;
+  overflow: hidden;
+}
+
+.pipedream {
+  @include full-image('../images/pipedream.jpg', 900px, fixed);
+}
+.freestone {
+  @include full-image('../images/freestone.jpg', 700px, fixed);
+}
+.jailhouse {
+  @include full-image('../images/jailhouse.jpg', 900px, fixed);
+}
+
+.mobile-show {
+  display: none;
+}
+
+.desktop-show{
+  display: block;
+}
+
+body{
+  font-size: 30px;
+}
+
+@media all and (max-width: 900px){
+  .freestone {
+    @include full-image('../images/freestone.jpg', 600px, scroll);
+  }
+
+@media all and (max-width: 900px) and (min-width: 600px){
+  .freestone {
+    @include full-image('../images/freestone.jpg', 600px, scroll);
+  }
+}
+
+@media all and (max-width: 600px) and (min-width: 400px){
+  .freestone {
+    @include full-image('../images/freestone.jpg', 400px, scroll);
+  }
+}
+
+@media all and (max-width: 400px) and (min-width: 200px){
+  .freestone {
+    @include full-image('../images/freestone.jpg', 200px, scroll);
+  }
 }
