@@ -6,7 +6,8 @@
   "dependencies": {
     "bower-skrollr": "*",
     "bootstrap": "*",
-    "jquery":"*"
+    "jquery":"*",
+    "d3":"*"
   },
   "license": "MIT",
   "ignore": [
