@@ -33,11 +33,30 @@ body{
   font-size: 30px;
 }
 
+.parallax-header {
+  color: white;
+  position: relative;
+  margin-top: 50%;
+}
+
+.header-font {
+  font-size: 80px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.text-center {
+  text-align: center;
+}
 @media all and (max-width: 900px){
-  .freestone {
-    @include full-image('../images/freestone.jpg', 600px, scroll);
+
+  .desktop-show{
+    display: none;
+  }
+  .mobile-show {
+    display: block;
   }
 
+}
 @media all and (max-width: 900px) and (min-width: 600px){
   .freestone {
     @include full-image('../images/freestone.jpg', 600px, scroll);
@@ -46,12 +65,16 @@ body{
 
 @media all and (max-width: 600px) and (min-width: 400px){
   .freestone {
-    @include full-image('../images/freestone.jpg', 400px, scroll);
+    @include full-image('../images/freestone.jpg', 300px, scroll);
+  }
+
+  .parallax-header {
+    margin-top: 30%;
   }
 }
 
 @media all and (max-width: 400px) and (min-width: 200px){
   .freestone {
-    @include full-image('../images/freestone.jpg', 200px, scroll);
+    @include full-image('../images/freestone.jpg', 300px, scroll);
   }
 }

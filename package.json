@@ -23,6 +23,10 @@
     "url": "https://github.com/bernardogfilho/gulp-project-template/issues"
   },
   "dependencies": {
+    "express":"*",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0",
     "gulp-concat": "*",
     "gulp-util": "~2.2.13",
     "run-sequence": "*",
