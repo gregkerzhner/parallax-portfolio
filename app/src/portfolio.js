@@ -1,3 +1,7 @@
 (function(){
-  var s = skrollr.init()
+  $(window).load(function() {  
+    skrollr.init({
+      forceHeight: false
+    });
+  });
 })();

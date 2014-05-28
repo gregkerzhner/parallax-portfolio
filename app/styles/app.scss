@@ -11,14 +11,78 @@
   overflow: hidden;
 }
 
+@font-face
+{
+  font-family: "din";
+  src: url("../fonts/din.ttf");
+}
+
+
+@font-face
+{
+  font-family: "Londrina";
+  src: url("../fonts/LondrinaSolid-Regular.otf");
+}
+
+
+body {
+  font-family: "din"
+}
+
+.gradient {
+  background-image: -webkit-linear-gradient(top,#e5e5e5,#fff);
+}
+.black {
+  color: black !important;
+}
 .pipedream {
   @include full-image('../images/pipedream.jpg', 900px, fixed);
 }
+
 .freestone {
-  @include full-image('../images/freestone.jpg', 700px, fixed);
+  @include full-image('../images/freestone.jpg', 900px, fixed);
 }
+
+.together {
+  @include full-image('../images/together.png', 900px, fixed);
+}
+
+.tara {
+  @include full-image('../images/tara.png', 900px, fixed);
+}
+
+.mygopro {
+  @include full-image('../images/mygopro-small.png', 900px, fixed);
+}
+
+.cart {
+  @include full-image('../images/cart.png', 900px, fixed);
+}
+
+.gopro {
+  @include full-image('../images/gopro.png', 900px, fixed);
+}
+
 .jailhouse {
   @include full-image('../images/jailhouse.jpg', 900px, fixed);
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
+.img-linky {
+  height: 100%;
+}
+.contact-image {
+  width: 100%;
+}
+
+.contact-link {
+  width: 30%;
 }
 
 .mobile-show {
@@ -29,6 +93,13 @@
   display: block;
 }
 
+.pad-top {
+  padding-top: 20px;
+}
+
+.pad-bottom {
+  padding-bottom: 20px;
+}
 body{
   font-size: 30px;
 }
@@ -40,8 +111,8 @@ body{
 }
 
 .header-font {
-  font-size: 80px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  font-size: 100px;
+  font-family: "Londrina"
 }
 
 .text-center {
@@ -57,6 +128,12 @@ body{
   }
 
 }
+@media all and (max-width: 2000px) and (min-width: 1200px){
+  .parallax-header {
+    margin-top: 50%;
+  }
+}
+
 @media all and (max-width: 900px) and (min-width: 600px){
   .freestone {
     @include full-image('../images/freestone.jpg', 600px, scroll);
@@ -74,7 +151,41 @@ body{
 }
 
 @media all and (max-width: 400px) and (min-width: 200px){
+  $imgSize: 250px;
+  .contact-link {
+    width: 45%;
+  }
+
   .freestone {
-    @include full-image('../images/freestone.jpg', 300px, scroll);
+    @include full-image('../images/freestone.jpg', $imgSize, scroll);
+  }
+
+  .pipedream {
+    @include full-image('../images/pipedream.jpg', $imgSize, scroll);
+  }
+
+
+  .together {
+    @include full-image('../images/together.png', $imgSize, scroll);
+  }
+
+  .tara {
+    @include full-image('../images/tara.png', $imgSize, scroll);
+  }
+
+  .mygopro {
+    @include full-image('../images/mygopro-small.png', $imgSize, scroll);
+  }
+
+  .cart {
+    @include full-image('../images/cart.png', $imgSize, scroll);
+  }
+
+  .gopro {
+    @include full-image('../images/gopro.png', $imgSize, scroll);
+  }
+
+  .jailhouse {
+    @include full-image('../images/jailhouse.jpg', $imgSize, scroll);
   }
 }

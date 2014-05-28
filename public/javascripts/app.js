@@ -11144,5 +11144,9 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 }(jQuery);
 
 (function(){
-  var s = skrollr.init()
+  $(window).load(function() {  
+    skrollr.init({
+      forceHeight: false
+    });
+  });
 })();
