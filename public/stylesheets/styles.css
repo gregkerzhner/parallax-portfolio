@@ -4819,7 +4819,7 @@ body {
   height: 100%; }
 
 .contact-image {
-  width: 100%; }
+  width: 85%; }
 
 .contact-link {
   width: 30%; }
@@ -4861,8 +4861,10 @@ body {
   .mobile-show {
     display: block; }
   .contact-link {
-    width: 20%;
-    max-width: 100px; }
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px; }
   .parallax-header {
     margin: 5% 0 5% 0; }
   .freestone {

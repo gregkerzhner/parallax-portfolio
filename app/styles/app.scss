@@ -92,7 +92,7 @@ body {
   height: 100%;
 }
 .contact-image {
-  width: 100%;
+  width: 85%;
 }
 
 .contact-link {
@@ -147,11 +147,13 @@ body{
   .mobile-show {
     display: block;
   }
-  .contact-link {
-    width: 20%;
-    max-width: 100px;
-  }
 
+  .contact-link {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px; 
+  }
   .parallax-header{
     margin: 5% 0 5% 0;
   }
