@@ -11148,19 +11148,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
 }(jQuery);
 
-window.Cloud = function(parentEl){
-	this.parentEl = parentEl;
-	this.top = 0;
-	this.left = 0;
-}
 
-Cloud.prototype.render = function(){
-	$(this.parentEl).append("<img id='cloud'src='/images/cloud.png'></img>")
-}
-
-
-
-$(window).load(function() {  
+$(document).ready(function() {  
   skrollr.init({
     forceHeight: false
   });
