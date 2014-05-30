@@ -32,6 +32,20 @@ body {
 .gradient {
   background-image: -webkit-linear-gradient(top,#e5e5e5,#fff);
 }
+
+.sky-bottom{
+  background: #c9dbe9;
+  background: -webkit-linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
+  background: -linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
+  background: -moz-linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
+}
+
+.sky-top{
+  background: #c9dbe9;
+  background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+  background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+  background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
 .black {
   color: black !important;
 }
@@ -118,7 +132,14 @@ body{
 .text-center {
   text-align: center;
 }
-@media all and (max-width: 900px){
+@media all and (max-width: 2000px) and (min-width: 1200px){
+  .parallax-header {
+    margin-top: 50%;
+  }
+}
+
+@media all and (max-width: 780px) {
+  $imgSize: 400px;
 
   .desktop-show{
     display: none;
@@ -126,36 +147,14 @@ body{
   .mobile-show {
     display: block;
   }
-
-}
-@media all and (max-width: 2000px) and (min-width: 1200px){
-  .parallax-header {
-    margin-top: 50%;
-  }
-}
-
-@media all and (max-width: 900px) and (min-width: 600px){
-  .freestone {
-    @include full-image('../images/freestone.jpg', 600px, scroll);
-  }
-}
-
-@media all and (max-width: 600px) and (min-width: 400px){
-  .freestone {
-    @include full-image('../images/freestone.jpg', 300px, scroll);
-  }
-
-  .parallax-header {
-    margin-top: 30%;
-  }
-}
-
-@media all and (max-width: 400px) and (min-width: 200px){
-  $imgSize: 250px;
   .contact-link {
-    width: 45%;
+    width: 20%;
+    max-width: 100px;
   }
 
+  .parallax-header{
+    margin: 5% 0 5% 0;
+  }
   .freestone {
     @include full-image('../images/freestone.jpg', $imgSize, scroll);
   }
@@ -188,25 +187,113 @@ body{
   .jailhouse {
     @include full-image('../images/jailhouse.jpg', $imgSize, scroll);
   }
+
+  .sky-bottom {
+    background: white;
+    background-color: white;
+  }
+
+  .sky-top{
+    background: white;
+    background-color: white;
+  }
+
+  .pad-top {
+    padding-top: 10px;
+  }
+
+  .pad-bottom {
+    padding-bottom: 10px;
+  }
+
+  body{
+    font-size: 20px;
+  }
+}
+
+
+@media all and (max-width: 600px) and (min-width: 400px){
+  .freestone {
+    @include full-image('../images/freestone.jpg', 300px, scroll);
+  }
+
+  .parallax-header {
+    margin-top: 30%;
+  }
+  .sky-bottom {
+    background: blue;
+  }
+}
+
+@media all and (max-width: 400px) and (min-width: 200px){
+  $imgSize: 230px;
+  .contact-link {
+    width: 45%;
+  }
+
+  .parallax-header{
+    margin: 5% 0 5% 0;
+  }
+  .freestone {
+    @include full-image('../images/freestone.jpg', $imgSize, scroll);
+  }
+
+  .pipedream {
+    @include full-image('../images/pipedream.jpg', $imgSize, scroll);
+  }
+
+
+  .together {
+    @include full-image('../images/together.png', $imgSize, scroll);
+  }
+
+  .tara {
+    @include full-image('../images/tara.png', $imgSize, scroll);
+  }
+
+  .mygopro {
+    @include full-image('../images/mygopro-small.png', $imgSize, scroll);
+  }
+
+  .cart {
+    @include full-image('../images/cart.png', $imgSize, scroll);
+  }
+
+  .gopro {
+    @include full-image('../images/gopro.png', $imgSize, scroll);
+  }
+
+  .jailhouse {
+    @include full-image('../images/jailhouse.jpg', $imgSize, scroll);
+  }
+
+  .sky-bottom {
+    background: white;
+    background-color: white;
+  }
+
+  .sky-top{
+    background: white;
+    background-color: white;
+  }
+
+  .pad-top {
+    padding-top: 10px;
+  }
+
+  .pad-bottom {
+    padding-bottom: 10px;
+  }
+
+  body{
+    font-size: 20px;
+  }
 }
 
 #clouds{
   padding: 200px 0px 0px 0px;
 }
 
-.sky-bottom{
-  background: #c9dbe9;
-  background: -webkit-linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
-  background: -linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
-  background: -moz-linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
-}
-
-.sky-top{
-  background: #c9dbe9;
-  background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
-  background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
-  background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
-}
 
 /*Time to finalise the cloud shape*/
 .cloud {
