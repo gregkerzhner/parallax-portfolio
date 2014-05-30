@@ -5,8 +5,8 @@ var express = require("express"),
     methodOverride = require('method-override'),
     port = parseInt(process.env.PORT, 10) || 3444;
 
-app.get("/", function (req, res) {
-  res.redirect("/index.html");
+app.get("", function (req, res) {
+  res.sendfile("public/index.html");
 });
 
 app.use(methodOverride());
