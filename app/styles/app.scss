@@ -91,12 +91,9 @@ body {
 .img-linky {
   height: 100%;
 }
-.contact-image {
-  width: 100%;
-}
+
 
 .contact-link {
-  width: 20%;
   display: inline-block;
 }
 
@@ -133,10 +130,18 @@ body{
 .text-center {
   text-align: center;
 }
+
 @media all and (max-width: 2000px) and (min-width: 1200px){
   .parallax-header {
     margin-top: 50%;
   }
+}
+
+@media all and (max-width: 1200px) and (min-width: 900px){
+  .contact-image {
+    width: 150px;
+    height: 150px;
+  } 
 }
 
 @media all and (max-width: 900px) {
@@ -222,9 +227,6 @@ body{
 
   .parallax-header {
     margin-top: 30%;
-  }
-  .sky-bottom {
-    background: blue;
   }
 }
 

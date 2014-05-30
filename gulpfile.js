@@ -16,6 +16,8 @@ connect      = require('gulp-connect'),
 browserify   = require('gulp-browserify'),
 usemin       = require('gulp-usemin'),
 imagemin     = require('gulp-imagemin'),
+uglify = require('gulp-uglify'),
+minifyCSS = require('gulp-minify-css'),
 rename = require('gulp-rename');
 
 gulp.task('scripts', function() {
@@ -25,6 +27,7 @@ gulp.task('scripts', function() {
   	'app/vendors/bootstrap/dist/js/bootstrap.js', 
   	'app/src/*.js'])
     .pipe(concat('app.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('./public/javascripts'))
     //.pipe(rename('all.min.js'))
     //.pipe(uglify())
@@ -35,6 +38,7 @@ gulp.task('styles', function() {
     return gulp.src(['./app/vendors/bootstrap/dist/css/bootstrap.min.css','./app/styles/app.scss'])
       .pipe(concat('styles.css'))
       .pipe(sass())
+      .pipe(minifyCSS())
       .pipe(gulp.dest('./public/stylesheets'));
 });
 
