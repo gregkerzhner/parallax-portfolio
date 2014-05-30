@@ -4819,10 +4819,11 @@ body {
   height: 100%; }
 
 .contact-image {
-  width: 85%; }
+  width: 100%; }
 
 .contact-link {
-  width: 30%; }
+  width: 20%;
+  display: inline-block; }
 
 .mobile-show {
   display: none; }
@@ -4855,7 +4856,7 @@ body {
   .parallax-header {
     margin-top: 50%; } }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 900px) {
   .desktop-show {
     display: none; }
   .mobile-show {
