@@ -4728,49 +4728,49 @@ body {
   background-image: url('../images/pipedream.jpg');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .freestone {
   background-image: url('../images/freestone.jpg');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .together {
   background-image: url('../images/together.png');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .tara {
   background-image: url('../images/tara.png');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .mygopro {
   background-image: url('../images/mygopro-small.png');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .cart {
   background-image: url('../images/cart.png');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .gopro {
   background-image: url('../images/gopro.png');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .jailhouse {
   background-image: url('../images/jailhouse.jpg');
   background-size: cover;
   height: 900px;
-  position: relative; }
+  position: fixed; }
 
 .right {
   float: right; }
@@ -4831,42 +4831,42 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .pipedream {
     background-image: url('../images/pipedream.jpg');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .together {
     background-image: url('../images/together.png');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .tara {
     background-image: url('../images/tara.png');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .mygopro {
     background-image: url('../images/mygopro-small.png');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .cart {
     background-image: url('../images/cart.png');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .gopro {
     background-image: url('../images/gopro.png');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .jailhouse {
     background-image: url('../images/jailhouse.jpg');
     background-size: cover;
     height: 400px;
-    position: relative; }
+    position: fixed; }
   .sky-bottom {
     background: white;
     background-color: white; }
@@ -4885,7 +4885,7 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 300px;
-    position: relative; }
+    position: fixed; }
   .parallax-header {
     margin-top: 30%; } }
 
@@ -4898,42 +4898,42 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .pipedream {
     background-image: url('../images/pipedream.jpg');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .together {
     background-image: url('../images/together.png');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .tara {
     background-image: url('../images/tara.png');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .mygopro {
     background-image: url('../images/mygopro-small.png');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .cart {
     background-image: url('../images/cart.png');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .gopro {
     background-image: url('../images/gopro.png');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .jailhouse {
     background-image: url('../images/jailhouse.jpg');
     background-size: cover;
     height: 230px;
-    position: relative; }
+    position: fixed; }
   .sky-bottom {
     background: white;
     background-color: white; }
