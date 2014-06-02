@@ -5,7 +5,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% auto;
-  background-position: 0px 0px;
+  background-position: 0px 0px; 
   width: 100%;
   min-height: $minHeight;
   overflow: hidden;
@@ -28,7 +28,6 @@
 
 body {
   font-family: "din";
-   -webkit-transform: translate3d(0,0,1px);
 }
 
 .gradient {

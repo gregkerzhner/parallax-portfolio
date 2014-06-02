@@ -4701,8 +4701,7 @@ button.close {
   src: url("../fonts/LondrinaSolid-Regular.otf"); }
 
 body {
-  font-family: "din";
-  -webkit-transform: translate3d(0, 0, 1px); }
+  font-family: "din"; }
 
 .gradient {
   background-image: -webkit-linear-gradient(top, #e5e5e5, #fff); }
