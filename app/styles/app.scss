@@ -1,6 +1,6 @@
 
 @mixin full-image($src, $size){
-  background-image: url($src);
+  background-image: url("http://2.s3.envato.com/files/2444026/big-pic-themeforest.__large_preview.jpg");
   background-size: cover;
   height: $size;
   background-attachment: fixed;
