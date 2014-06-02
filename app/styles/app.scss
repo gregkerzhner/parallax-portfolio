@@ -1,14 +1,9 @@
 
-@mixin full-image($src, $minHeight, $backgroundPosition){
-  background: url($src) no-repeat center center $backgroundPosition; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% auto;
-  background-position: 0px 0px;
-  width: 100%;
-  min-height: $minHeight;
-  overflow: hidden;
+@mixin full-image($src, $size){
+  background-image: url($src);
+  background-size: cover;
+  height: $size;
+  position: relative;
 }
 
 @font-face
@@ -28,11 +23,13 @@
 
 body {
   font-family: "din";
-   -webkit-transform: translate3d(0,0,1px);
 }
 
-.gradient {
-  background-image: -webkit-linear-gradient(top,#e5e5e5,#fff);
+.h1-container {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  color: white;
 }
 
 .sky-bottom{
@@ -52,35 +49,35 @@ body {
   color: black !important;
 }
 .pipedream {
-  @include full-image('../images/pipedream.jpg', 900px, fixed);
+  @include full-image('../images/pipedream.jpg', 900px);
 }
 
 .freestone {
-  @include full-image('../images/freestone.jpg', 900px, fixed);
+  @include full-image('../images/freestone.jpg', 900px);
 }
 
 .together {
-  @include full-image('../images/together.png', 900px, fixed);
+  @include full-image('../images/together.png', 900px);
 }
 
 .tara {
-  @include full-image('../images/tara.png', 900px, fixed);
+  @include full-image('../images/tara.png', 900px);
 }
 
 .mygopro {
-  @include full-image('../images/mygopro-small.png', 900px, fixed);
+  @include full-image('../images/mygopro-small.png', 900px);
 }
 
 .cart {
-  @include full-image('../images/cart.png', 900px, fixed);
+  @include full-image('../images/cart.png', 900px);
 }
 
 .gopro {
-  @include full-image('../images/gopro.png', 900px, fixed);
+  @include full-image('../images/gopro.png', 900px);
 }
 
 .jailhouse {
-  @include full-image('../images/jailhouse.jpg', 900px, fixed);
+  @include full-image('../images/jailhouse.jpg', 900px);
 }
 
 .right {
@@ -118,15 +115,11 @@ body{
   font-size: 30px;
 }
 
-.parallax-header {
-  color: white;
-  position: relative;
-  margin-top: 50%;
-}
 
 .header-font {
   font-size: 100px;
-  font-family: "Londrina"
+  font-family: "Londrina";
+
 }
 
 .text-center {
@@ -166,36 +159,36 @@ body{
     margin: 5% 0 5% 0;
   }
   .freestone {
-    @include full-image('../images/freestone.jpg', $imgSize, scroll);
+    @include full-image('../images/freestone.jpg', $imgSize);
   }
 
   .pipedream {
-    @include full-image('../images/pipedream.jpg', $imgSize, scroll);
+    @include full-image('../images/pipedream.jpg', $imgSize);
   }
 
 
   .together {
-    @include full-image('../images/together.png', $imgSize, scroll);
+    @include full-image('../images/together.png', $imgSize);
   }
 
   .tara {
-    @include full-image('../images/tara.png', $imgSize, scroll);
+    @include full-image('../images/tara.png', $imgSize);
   }
 
   .mygopro {
-    @include full-image('../images/mygopro-small.png', $imgSize, scroll);
+    @include full-image('../images/mygopro-small.png', $imgSize);
   }
 
   .cart {
-    @include full-image('../images/cart.png', $imgSize, scroll);
+    @include full-image('../images/cart.png', $imgSize);
   }
 
   .gopro {
-    @include full-image('../images/gopro.png', $imgSize, scroll);
+    @include full-image('../images/gopro.png', $imgSize);
   }
 
   .jailhouse {
-    @include full-image('../images/jailhouse.jpg', $imgSize, scroll);
+    @include full-image('../images/jailhouse.jpg', $imgSize);
   }
 
   .sky-bottom {
@@ -224,7 +217,7 @@ body{
 
 @media all and (max-width: 600px) and (min-width: 400px){
   .freestone {
-    @include full-image('../images/freestone.jpg', 300px, scroll);
+    @include full-image('../images/freestone.jpg', 300px);
   }
 
   .parallax-header {
@@ -242,36 +235,36 @@ body{
     margin: 5% 0 5% 0;
   }
   .freestone {
-    @include full-image('../images/freestone.jpg', $imgSize, scroll);
+    @include full-image('../images/freestone.jpg', $imgSize);
   }
 
   .pipedream {
-    @include full-image('../images/pipedream.jpg', $imgSize, scroll);
+    @include full-image('../images/pipedream.jpg', $imgSize);
   }
 
 
   .together {
-    @include full-image('../images/together.png', $imgSize, scroll);
+    @include full-image('../images/together.png', $imgSize);
   }
 
   .tara {
-    @include full-image('../images/tara.png', $imgSize, scroll);
+    @include full-image('../images/tara.png', $imgSize);
   }
 
   .mygopro {
-    @include full-image('../images/mygopro-small.png', $imgSize, scroll);
+    @include full-image('../images/mygopro-small.png', $imgSize);
   }
 
   .cart {
-    @include full-image('../images/cart.png', $imgSize, scroll);
+    @include full-image('../images/cart.png', $imgSize);
   }
 
   .gopro {
-    @include full-image('../images/gopro.png', $imgSize, scroll);
+    @include full-image('../images/gopro.png', $imgSize);
   }
 
   .jailhouse {
-    @include full-image('../images/jailhouse.jpg', $imgSize, scroll);
+    @include full-image('../images/jailhouse.jpg', $imgSize);
   }
 
   .sky-bottom {
@@ -295,6 +288,18 @@ body{
   body{
     font-size: 20px;
   }
+}
+
+@mixin full($src) {
+  background-image: url($src);
+  background-size: cover;
+  height: 900px;
+
+}
+
+.outer {
+  overflow: hidden;
+  height: 600px; 
 }
 
 #clouds{

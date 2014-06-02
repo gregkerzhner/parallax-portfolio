@@ -6,41 +6,50 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
 </head>
 <body>
- <div class="container-fluid">
-  <div class="row sky-top" >
-    <div class="col-md-12 freestone desktop-show" id="freestone-image"
-      data-bottom-top="background-position: 0% 0%;" 
-      data-top-bottom="background-position: 0% 100%;">
-      <h1 class="header-font parallax-header text-center"
-        data-bottom-bottom="margin-top: 30%; color: rgb(255,255,255);" 
-        data-top-bottom="margin-top: -30%; color: rgb(0,0,0);"
-        data-anchor-target="#freestone-image"
-      >HELLO.... ITS ME</h1>
-
+  <section class="outer" id="one">
+    <div class="freestone"
+      data-top-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+    >
+      <div class="h1-container"
+        data-top-top="top: 600px; color: rgb(255,255,255);" 
+        data-top-bottom="top: 0px; color: rgb(0,0,0);"
+        data-anchor-target="#one"
+        >
+        <h1 class="header-font text-center"
+        >HELLO.... ITS ME</h1> 
+      </div>
     </div>
-    <div class="col-md-12 freestone mobile-show">
-      <h1 class="parallax-header text-center">HELLO.... ITS ME</h1>
-    </div>
-
-    <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
-      My name is Greg Kerzhner and I am a software engineer and rock climber.  I graduated from Duke University with a degree in Computer Science and have been building (mostly) web applications ever since.  I like agile development,  well-tested code and delivering value to the world.  I dislike Microsoft Outlook. I am currently available for hire for projects big and small. Scroll down to see some of my recent work :)
+  </section>
+  <div class="container-fluid">
+    <div class="row sky-top" >
+      <div class="col-md-12 freestone mobile-show">
+        <h1 class="parallax-header text-center">HELLO.... ITS ME</h1>
+      </div>
+      <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
+        My name is Greg Kerzhner and I am a software engineer and rock climber.  I graduated from Duke University with a degree in Computer Science and have been building (mostly) web applications ever since.  I like agile development,  well-tested code and delivering value to the world.  I dislike Microsoft Outlook. I am currently available for hire for projects big and small. Scroll down to see some of my recent work :)
+      </div>
     </div>
   </div>
-
-  <div class="row sky-top" >
-    <a href="https://my.gopro.com" target="_blank">
-    <div class="col-md-12 mygopro desktop-show" id="mygopro-image"
-      data-bottom-top="background-position: 0% 0%;" 
-      data-top-bottom="background-position: 0% 100%;">
-      <h1 class="header-font parallax-header text-center"
-        data-bottom-bottom="margin-top: 30%; color: rgb(255,255,255);" 
-        data-top-bottom="margin-top: -30%; color: rgb(0,0,0);"
-        data-anchor-target="#mygopro-image"
-      >MY GOPRO</h1>
-
+  <section class="outer" id="two">
+    <div class="mygopro"
+      data-bottom-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+      data-anchor-target="#two"
+    >
+      <div class="h1-container"
+        data-bottom-top="top: 500px; color: rgb(255,255,255);" 
+        data-top-bottom="top: -200px; color: rgb(0,0,0);"
+        data-anchor-target="#two"
+        >
+        <h1 class="header-font text-center"
+        >MY GOPRO</h1> 
+      </div>
     </div>
-    </a>
-    <div class="col-md-12 mobile-show">
+  </section>
+  <div class="container-fluid">
+    <div class="row sky-top" >
+        <div class="col-md-12 mobile-show">
       <h1 class="parallax-header black text-center">MY GOPRO</h1>
       <div class="mygopro"></div>
     </div>
@@ -48,171 +57,194 @@
     <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
       <div class="row">
          <div class="col-md-6">
-          <a href="my.gopro.com">MyGoPro</a> is a new social platform for sharing and editing content from GoPro cameras.  I built the most central and crucial part of this ecosystem: user profiles.   These features allowed a user to login, have a profile, and upload their content to the network.  
-         </div>
-         <div class="col-md-6">
-          Technologies I leveraged: 
-          <ul>
-            <li>D3.js</li>
-            <li>Angular.js</li>
-            <li>Bower + Grunt</li>
-            <li>Ruby on Rails</li>
-            <li>PostgreSQL</li>
-          </ul>
-         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row sky-top" >
-    <a href="http://gopro.com" target="_blank">
-      <div class="col-md-12 gopro desktop-show" id="gopro-image"
-        data-bottom-top="background-position: 0% 0%;" 
-        data-top-bottom="background-position: 0% 100%;">
-        <h1 class="header-font parallax-header text-center"
-          data-bottom-bottom="margin-top: 30%; color: rgb(0,0,0);" 
-          data-top-bottom="margin-top: -30%; color: rgb(255,255,255);"
-          data-anchor-target="#gopro-image"
-        >GOPRO.COM</h1>
-
-      </div>
-    </a>
-    <div class="col-md-12 mobile-show">
-      <h1 class="parallax-header black text-center">GOPRO.COM</h1>
-      <div class="gopro"></div>
-    </div>
-
-    <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
-      <div class="row">
-         <div class="col-md-6">
-          <a href='http://gopro.com' target="_blank">GoPro.com</a> is a high traffic (20,000 concurrent users) app that currently handles all of GoPro’s web presence.  Along with a small team, I built a large variety of features for this application.  Services included highly responsive frontend interfaces as well as efficient backend code. 
-         </div>
-         <div class="col-md-6">
-          Technologies I leveraged: 
-          <ul>
-            <li>SASS/CSS</li>
-            <li>Backbone.js</li>
-            <li>Ruby on Rails</li>
-            <li>MySQL</li>
-          </ul>
-         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row sky-top" >
-    <a href="http://cart.gopro.com/shopping/cart.ssp?" target="_blank">
-      <div class="col-md-12 cart desktop-show" id="cart-image"
-        data-bottom-top="background-position: 0% 0%;" 
-        data-top-bottom="background-position: 0% 100%;">
-        <h1 class="header-font parallax-header text-center"
-          data-bottom-bottom="margin-top: 30%; color: rgb(0,0,0);" 
-          data-top-bottom="margin-top: -30%; color: rgb(255,255,255);"
-          data-anchor-target="#cart-image"
-        >GOPRO CART AND CHECKOUT</h1>
-
-      </div>
-    </a>
-
-    <div class="col-md-12 mobile-show">
-      <h1 class="parallax-header text-center black">GOPRO CART AND CHECKOUT</h1>
-      <div class="cart"></div>
-    </div>
-
-    <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
-      <div class="row">
-         <div class="col-md-6">
-          <a href="http://cart.gopro.com/shopping/cart.ssp?" target="_blank">GoPro Cart</a> handles all of GoPro’s online shopping.  It is a fully customized web store built on the Netsuite platform.  This is a responsive single page application built with Backbone.js and hosted in the Netsuite ecosystem.  Since Netsuite is notoriously hard to develop for, I also developed several automated tools (mostly using Node.js) for automatically deploying code to Netsuite as well as mocking and stubbing their backend when possible.
-         </div>
-         <div class="col-md-6">
-          Technologies I leveraged: 
-          <ul>
-            <li>SASS/CSS</li>
-            <li>Backbone.js</li>
-            <li>Node.js</li>
-          </ul>
-         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row sky-top" >
-    <a href="http://www.tarareynvaan.com/" target="_blank">
-      <div class="col-md-12 tara desktop-show" id="tara-image"
-        data-bottom-top="background-position: 0% 0%;" 
-        data-top-bottom="background-position: 0% 100%;">
-        <h1 class="header-font parallax-header text-center"
-          data-bottom-bottom="margin-top: 30%; color: rgb(255,255,255);" 
-          data-top-bottom="margin-top: -30%; color: rgb(0,0,0);"
-          data-anchor-target="#tara-image"
-        >TARA REYNVAAN PHOTOGRAPHY</h1>
-
-      </div>
-    </a>
-    <div class="col-md-12 mobile-show">
-      <h1 class="parallax-header black text-center">TARA REYNVAAN PHOTOGRAPHY</h1>
-      <div class="tara"></div>
-    </div>
-
-    <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
-      <div class="row">
-         <div class="col-md-6">
-          Tara Reynvaan is a super talented outdoor and lifestyle photographer who needed a web presence as engaging as her work.  I built her a content management system which allowed her to upload and display the latest and greatest from her collection.  
-         </div>
-         <div class="col-md-6">
-          <ul>
-            <li>SASS/CSS</li>
-            <li>jQuery</li>
-            <li>Ruby on Rails</li>
-            <li>MySQL</li>
-          </ul>
-         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row sky-bottom" >
-    <div class="col-md-12 together desktop-show" id="together-image"
-      data-bottom-top="background-position: 0% 0%;" 
-      data-top-bottom="background-position: 0% 100%;">
-      <h1 class="header-font parallax-header text-center"
-        data-bottom-bottom="margin-top: 30%; color: rgb(255,255,255);" 
-        data-top-bottom="margin-top: -30%; color: rgb(0,0,0);"
-        data-anchor-target="#together-image"
-      >LETS DO IT TOGETHER!</h1>
-
-    </div>
-    <div class="col-md-12 mobile-show">
-      <h1 class="parallax-header text-center black">LETS DO IT TOGETHER!</h1>
-      <div class="together"></div>
-    </div>
-  
-    <div class="col-md-12 desktop-show pad-top pad-bottom">
-      <div class="row" id="contact">
-        <div class="text-center pad-top pad-bottom">
-          What can I build for you? Click the links below to get at me. 
-        </div>
-        <div class="col-md-12">
-          <a href="mailto:gregkerzhner@gmail.com"
-          data-smooth-scrolling="off"
-          data-bottom-top="margin-left: 0%;" 
-          data-bottom-bottom="margin-left: 34%;"
-          class="contact-link left"
-          >
-            <img src="/images/email.png" class="contact-image" width="200px" height="200px" ></img>
-          </a>
-          <a href="https://github.com/guidoprincess" target="_blank"
-          data-smooth-scrolling="off"
-          data-bottom-top="margin-right: 0%;" 
-          data-bottom-bottom="margin-right: 32%;"
-          class="contact-link right"
-          >
-            <img src="/images/github.png"  width="200px" height="200px" class="contact-image"></img>
-          </a>
+            <a href="my.gopro.com">MyGoPro</a> is a new social platform for sharing and editing content from GoPro cameras.  I built the most central and crucial part of this ecosystem: user profiles.   These features allowed a user to login, have a profile, and upload their content to the network.  
+           </div>
+           <div class="col-md-6">
+            Technologies I leveraged: 
+            <ul>
+              <li>D3.js</li>
+              <li>Angular.js</li>
+              <li>Bower + Grunt</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+            </ul>
+           </div>
         </div>
       </div>
     </div>
-    <div class="row desktop-show">
+  </div>
+
+  <section class="outer" id="three">
+    <div class="gopro"
+      data-bottom-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+      data-anchor-target="#three"
+    >
+      <div class="h1-container"
+        data-bottom-top="top: 500px; color: rgb(255,255,255);" 
+        data-top-bottom="top: -200px; color: rgb(0,0,0);"
+        data-anchor-target="#three"
+        >
+        <h1 class="header-font text-center"
+        >GOPRO.COM</h1> 
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid">
+    <div class="row sky-top" >
+      <div class="col-md-12 mobile-show">
+        <h1 class="parallax-header black text-center">GOPRO.COM</h1>
+        <div class="gopro"></div>
+      </div>
+
+      <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
+        <div class="row">
+           <div class="col-md-6">
+            <a href='http://gopro.com' target="_blank">GoPro.com</a> is a high traffic (20,000 concurrent users) app that currently handles all of GoPro’s web presence.  Along with a small team, I built a large variety of features for this application.  Services included highly responsive frontend interfaces as well as efficient backend code. 
+           </div>
+           <div class="col-md-6">
+            Technologies I leveraged: 
+            <ul>
+              <li>SASS/CSS</li>
+              <li>Backbone.js</li>
+              <li>Ruby on Rails</li>
+              <li>MySQL</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="outer" id="four">
+    <div class="cart"
+      data-bottom-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+      data-anchor-target="#four"
+    >
+      <div class="h1-container"
+        data-bottom-top="top: 500px; color: rgb(255,255,255);" 
+        data-top-bottom="top: -200px; color: rgb(0,0,0);"
+        data-anchor-target="#four"
+        >
+        <h1 class="header-font text-center"
+        >GOPRO CART AND CHECKOUT</h1> 
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row sky-top" >
+      <div class="col-md-12 mobile-show">
+        <h1 class="parallax-header text-center black">GOPRO CART AND CHECKOUT</h1>
+        <div class="cart"></div>
+      </div>
+
+      <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
+        <div class="row">
+           <div class="col-md-6">
+            <a href="http://cart.gopro.com/shopping/cart.ssp?" target="_blank">GoPro Cart</a> handles all of GoPro’s online shopping.  It is a fully customized web store built on the Netsuite platform.  This is a responsive single page application built with Backbone.js and hosted in the Netsuite ecosystem.  Since Netsuite is notoriously hard to develop for, I also developed several automated tools (mostly using Node.js) for automatically deploying code to Netsuite as well as mocking and stubbing their backend when possible.
+           </div>
+           <div class="col-md-6">
+            Technologies I leveraged: 
+            <ul>
+              <li>SASS/CSS</li>
+              <li>Backbone.js</li>
+              <li>Node.js</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="outer" id="five">
+    <div class="tara"
+      data-bottom-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+      data-anchor-target="#five"
+    >
+      <div class="h1-container"
+        data-bottom-top="top: 500px; color: rgb(255,255,255);" 
+        data-top-bottom="top: -200px; color: rgb(0,0,0);"
+        data-anchor-target="#five"
+        >
+        <h1 class="header-font text-center"
+        >TARA REYNVAAN PHOTOGRAPHY</h1> 
+      </div>
+
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row sky-top" >
+      <div class="col-md-12 mobile-show">
+        <h1 class="parallax-header black text-center">TARA REYNVAAN PHOTOGRAPHY</h1>
+        <div class="tara"></div>
+      </div>
+
+      <div class="col-md-8 col-md-offset-2 pad-top pad-bottom">
+        <div class="row">
+           <div class="col-md-6">
+            Tara Reynvaan is a super talented outdoor and lifestyle photographer who needed a web presence as engaging as her work.  I built her a content management system which allowed her to upload and display the latest and greatest from her collection.  
+           </div>
+           <div class="col-md-6">
+            <ul>
+              <li>SASS/CSS</li>
+              <li>jQuery</li>
+              <li>Ruby on Rails</li>
+              <li>MySQL</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="outer" id="six">
+    <div class="together"
+      data-bottom-top="-webkit-transform: translateY(-200px);" 
+      data-top-bottom="-webkit-transform: translateY(200px);"
+      data-anchor-target="#six"
+    >
+      <div class="h1-container"
+        data-bottom-top="top: 500px; color: rgb(255,255,255);" 
+        data-top-bottom="top: -200px; color: rgb(0,0,0);"
+        data-anchor-target="#six"
+        >
+        <h1 class="header-font text-center"
+        >LETS DO IT TOGETHER!</h1> 
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row sky-top" >
+      <div class="col-md-12 desktop-show pad-top pad-bottom">
+        <div class="row" id="contact">
+          <div class="text-center pad-top pad-bottom">
+            What can I build for you? Click the links below to get at me. 
+          </div>
+          <div class="col-md-12">
+            <a href="mailto:gregkerzhner@gmail.com"
+            data-smooth-scrolling="off"
+            data-bottom-top="margin-left: 0%;" 
+            data-bottom-bottom="margin-left: 34%;"
+            class="contact-link left"
+            >
+              <img src="/images/email.png" class="contact-image" width="200px" height="200px" ></img>
+            </a>
+            <a href="https://github.com/guidoprincess" target="_blank"
+            data-smooth-scrolling="off"
+            data-bottom-top="margin-right: 0%;" 
+            data-bottom-bottom="margin-right: 32%;"
+            class="contact-link right"
+            >
+              <img src="/images/github.png"  width="200px" height="200px" class="contact-image"></img>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row desktop-show sky-top">
       <div class="col-md-12">
         <div id="clouds">
           <div class="cloud x1"></div>
@@ -223,33 +255,8 @@
         </div>
       </div>
     </div>
-
-    
-    <div class="col-md-12 mobile-show">
-      <div class="row" id="contact">
-        <div class="col-md-12">
-            <div class="text-center pad-top pad-bottom">
-              What can I build for you? Click the links below to get at me. 
-          </div>
-        </div>
-        <div class="col-md-12 text-center">
-          <a href="mailto:gregkerzhner@gmail.com"
-          class="contact-link"
-          >
-            <img src="/images/email.png" class="contact-image" width="150px" height="150px"></img>
-          </a>
-          <a href="https://github.com/guidoprincess" target="_blank"
-          class="contact-link"
-          >
-            <img src="/images/github.png" class="contact-image" width="150px" height="150px" ></img>
-          </a>
-        </div>
-      </div>
-
-    </div>
   </div>
 
- </div>
 </body>
 <script type="text/javascript" src="javascripts/app.js"></script>
 </html>
