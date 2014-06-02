@@ -3,7 +3,7 @@
   background-image: url($src);
   background-size: cover;
   height: $size;
-  position: fixed;
+  background-attachment: fixed;
 }
 
 @font-face

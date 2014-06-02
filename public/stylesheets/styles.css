@@ -4728,49 +4728,49 @@ body {
   background-image: url('../images/pipedream.jpg');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .freestone {
   background-image: url('../images/freestone.jpg');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .together {
   background-image: url('../images/together.png');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .tara {
   background-image: url('../images/tara.png');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .mygopro {
   background-image: url('../images/mygopro-small.png');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .cart {
   background-image: url('../images/cart.png');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .gopro {
   background-image: url('../images/gopro.png');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .jailhouse {
   background-image: url('../images/jailhouse.jpg');
   background-size: cover;
   height: 900px;
-  position: fixed; }
+  background-attachment: fixed; }
 
 .right {
   float: right; }
@@ -4831,42 +4831,42 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .pipedream {
     background-image: url('../images/pipedream.jpg');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .together {
     background-image: url('../images/together.png');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .tara {
     background-image: url('../images/tara.png');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .mygopro {
     background-image: url('../images/mygopro-small.png');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .cart {
     background-image: url('../images/cart.png');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .gopro {
     background-image: url('../images/gopro.png');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .jailhouse {
     background-image: url('../images/jailhouse.jpg');
     background-size: cover;
     height: 400px;
-    position: fixed; }
+    background-attachment: fixed; }
   .sky-bottom {
     background: white;
     background-color: white; }
@@ -4885,7 +4885,7 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 300px;
-    position: fixed; }
+    background-attachment: fixed; }
   .parallax-header {
     margin-top: 30%; } }
 
@@ -4898,42 +4898,42 @@ body {
     background-image: url('../images/freestone.jpg');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .pipedream {
     background-image: url('../images/pipedream.jpg');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .together {
     background-image: url('../images/together.png');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .tara {
     background-image: url('../images/tara.png');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .mygopro {
     background-image: url('../images/mygopro-small.png');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .cart {
     background-image: url('../images/cart.png');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .gopro {
     background-image: url('../images/gopro.png');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .jailhouse {
     background-image: url('../images/jailhouse.jpg');
     background-size: cover;
     height: 230px;
-    position: fixed; }
+    background-attachment: fixed; }
   .sky-bottom {
     background: white;
     background-color: white; }
