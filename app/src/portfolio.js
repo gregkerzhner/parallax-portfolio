@@ -5,8 +5,6 @@ window.mobilecheck = function() {
 }
 $(document).ready(function() {  
   if(window.mobilecheck()===false){
-    skrollr.init({
-      forceHeight: false
-    });
+    $(window).stellar();
   }
 });

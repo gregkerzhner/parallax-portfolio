@@ -22,8 +22,8 @@ rename = require('gulp-rename');
 
 gulp.task('scripts', function() {
   return gulp.src([
-  	'app/vendors/*/*.min.js', 
   	'app/vendors/jquery/dist/jquery.js',
+    'app/vendors/jquery.stellar/jquery.stellar.js',
   	'app/vendors/bootstrap/dist/js/bootstrap.js', 
   	'app/src/*.js'])
     .pipe(concat('app.js'))
