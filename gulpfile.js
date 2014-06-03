@@ -27,7 +27,7 @@ gulp.task('scripts', function() {
   	'app/vendors/bootstrap/dist/js/bootstrap.js', 
   	'app/src/*.js'])
     .pipe(concat('app.js'))
-    //.pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('./public/javascripts'))
     //.pipe(rename('all.min.js'))
     //.pipe(uglify())
@@ -38,7 +38,7 @@ gulp.task('styles', function() {
     return gulp.src(['./app/vendors/bootstrap/dist/css/bootstrap.min.css','./app/styles/app.scss'])
       .pipe(concat('styles.css'))
       .pipe(sass())
-      //.pipe(minifyCSS())
+      .pipe(minifyCSS())
       .pipe(gulp.dest('./public/stylesheets'));
 });
 
