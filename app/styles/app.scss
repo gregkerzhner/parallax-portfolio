@@ -1,6 +1,6 @@
 
 @mixin full-image($src, $size){
-  background-image: url("http://2.s3.envato.com/files/2444026/big-pic-themeforest.__large_preview.jpg");
+  background-image: url($src);
   background-size: cover;
   height: $size;
   background-attachment: fixed;
@@ -53,27 +53,27 @@ body {
 }
 
 .freestone {
-  @include full-image('../images/freestone.jpg', 900px);
+  @include full-image('http://i.imgur.com/7nW0LAy.jpg', 900px);
 }
 
 .together {
-  @include full-image('../images/together.png', 900px);
+  @include full-image('http://i.imgur.com/8IW3h87.png', 900px);
 }
 
 .tara {
-  @include full-image('../images/tara.png', 900px);
+  @include full-image('http://i.imgur.com/8byctIH.png', 900px);
 }
 
 .mygopro {
-  @include full-image('../images/mygopro-small.png', 900px);
+  @include full-image('http://i.imgur.com/OIF5qMC.jpg', 900px);
 }
 
 .cart {
-  @include full-image('../images/cart.png', 900px);
+  @include full-image('http://i.imgur.com/1kC5yZL.png', 900px);
 }
 
 .gopro {
-  @include full-image('../images/gopro.png', 900px);
+  @include full-image(' http://i.imgur.com/8IW3h87.png', 900px);
 }
 
 .jailhouse {
