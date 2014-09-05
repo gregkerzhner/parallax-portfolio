@@ -60,6 +60,11 @@ body {
   @include full-image('http://i.imgur.com/7nW0LAy.jpg', 900px, fixed);
 }
 
+
+.ama-lab {
+  @include full-image('http://i.imgur.com/aRPyGHI.png', 900px, fixed);
+}
+
 .together {
   @include full-image('http://i.imgur.com/CdtTGwT.jpg', 900px, fixed);
 }
@@ -162,6 +167,10 @@ body{
     @include full-image('http://i.imgur.com/7nW0LAy.jpg', $imgSize, scroll);
   }
 
+  .ama-lab {
+    @include full-image('http://i.imgur.com/aRPyGHI.png', $imgSize, scroll);
+  }
+
   .together {
     @include full-image('http://i.imgur.com/CdtTGwT.jpg', $imgSize, scroll);
   }
@@ -213,6 +222,10 @@ body{
     @include full-image('http://i.imgur.com/7nW0LAy.jpg', 300px, scroll);
   }
 
+  .ama-lab {
+    @include full-image('http://i.imgur.com/aRPyGHI.png', 300px, scroll);
+  }
+
   .parallax-header {
     margin-top: 30%;
   }
@@ -229,6 +242,11 @@ body{
   }
   .freestone {
     @include full-image('http://i.imgur.com/7nW0LAy.jpg', $imgSize, scroll);
+  }
+
+
+  .ama-lab {
+    @include full-image('http://i.imgur.com/aRPyGHI.png', $imgSize, scroll);
   }
 
 
