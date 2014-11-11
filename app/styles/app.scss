@@ -77,6 +77,12 @@ body {
   @include full-image('http://i.imgur.com/OIF5qMC.jpg', 900px, fixed);
 }
 
+
+.endogo {
+  @include full-image('http://i.imgur.com/hlzxkyh.png', 900px, fixed);
+}
+
+
 .cart {
   @include full-image('http://i.imgur.com/1kC5yZL.png', 900px, fixed);
 }
@@ -183,6 +189,10 @@ body{
     @include full-image('http://i.imgur.com/OIF5qMC.jpg', $imgSize, scroll);
   }
 
+  .endogo {
+  @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+  }
+
   .cart {
     @include full-image('http://i.imgur.com/1kC5yZL.png', $imgSize, scroll);
   }
@@ -261,6 +271,11 @@ body{
   .mygopro {
     @include full-image('http://i.imgur.com/OIF5qMC.jpg', $imgSize, scroll);
   }
+
+  .endogo {
+  @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+  }
+
 
   .cart {
     @include full-image('http://i.imgur.com/1kC5yZL.png', $imgSize, scroll);
