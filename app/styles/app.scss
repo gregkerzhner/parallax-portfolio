@@ -82,6 +82,10 @@ body {
   @include full-image('http://i.imgur.com/hlzxkyh.png', 900px, fixed);
 }
 
+.ideally {
+  @include full-image('http://i.imgur.com/GuhdsQz.png', 900px, fixed);
+}
+
 
 .cart {
   @include full-image('http://i.imgur.com/1kC5yZL.png', 900px, fixed);
@@ -190,7 +194,11 @@ body{
   }
 
   .endogo {
-  @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+    @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+  }
+
+  .ideally {
+    @include full-image('http://i.imgur.com/GuhdsQz.png', $imgSize, scroll);
   }
 
   .cart {
@@ -274,6 +282,10 @@ body{
 
   .endogo {
   @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+  }
+
+  .ideally {
+    @include full-image('http://i.imgur.com/GuhdsQz.png', $imgSize, scroll);
   }
 
 

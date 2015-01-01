@@ -22,7 +22,7 @@ rename = require('gulp-rename');
 
 gulp.task('scripts', function() {
   return gulp.src([
-  	'app/vendors/*/*.min.js', 
+  	'app/vendors/skrollr/dist/skrollr.min.js', 
   	'app/vendors/jquery/dist/jquery.js',
   	'app/vendors/bootstrap/dist/js/bootstrap.js', 
   	'app/src/*.js'])

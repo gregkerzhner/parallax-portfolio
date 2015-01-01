@@ -5,8 +5,9 @@ window.mobilecheck = function() {
 }
 $(document).ready(function() {  
   if(window.mobilecheck()===false){
-    skrollr.init({
-      forceHeight: false
-    });
+    skrollr.init();
+    setTimeout(function () {
+      skrollr.get().refresh();
+    }, 100);
   }
 });
