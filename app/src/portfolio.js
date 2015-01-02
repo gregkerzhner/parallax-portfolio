@@ -8,6 +8,6 @@ $(document).ready(function() {
     skrollr.init({forceHeight: false});
     setTimeout(function () {
       skrollr.get().refresh();
-    }, 400);
+    }, 2000);
   }
 });
