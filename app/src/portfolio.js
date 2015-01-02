@@ -5,9 +5,9 @@ window.mobilecheck = function() {
 }
 $(document).ready(function() {  
   if(window.mobilecheck()===false){
-    skrollr.init();
+    skrollr.init({forceHeight: false});
     setTimeout(function () {
       skrollr.get().refresh();
-    }, 100);
+    }, 400);
   }
 });
