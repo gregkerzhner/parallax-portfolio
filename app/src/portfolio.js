@@ -7,11 +7,9 @@ window.mobilecheck = function() {
 var height = document.getElementById('bye').offsetHeight;
 func = function(){
   if(window.mobilecheck()===false && document.getElementById('bye').offsetHeight < height){
-    console.log('refreshing')
     skrollr.get().refresh();
   }
   else {
-    console.log('waiting')
     setTimeout(function () {
       func()
     }, 100);
