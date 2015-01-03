@@ -5,14 +5,17 @@ window.mobilecheck = function() {
 }
 
 var height = document.getElementById('bye').offsetHeight;
+
 func = function(){
   if(window.mobilecheck()===false && document.getElementById('bye').offsetHeight < height){
+    console.log('refreshing');
     skrollr.get().refresh();
   }
   else {
     setTimeout(function () {
+      console.log('waiting');
       func()
-    }, 100);
+    }, 500);
   }
 }
 
@@ -23,3 +26,8 @@ $(document).ready(function() {
     skrollr.init({forceHeight: false});
   }
 });
+
+$(window).load(function(){
+  height = height + 10;
+  console.log('full load');
+})
