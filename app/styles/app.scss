@@ -3,6 +3,7 @@
   background-image: url($src);
   background-size: cover;
   height: $size;
+  min-height: $size;
   background-attachment: $attachment;
 }
 
