@@ -26,6 +26,11 @@ body {
   font-family: "din";
 }
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 .h1-container {
   position: absolute;
   top: 300px;

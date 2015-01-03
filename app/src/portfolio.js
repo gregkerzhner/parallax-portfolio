@@ -6,20 +6,18 @@ window.mobilecheck = function() {
 
 var height = document.getElementById('bye').offsetHeight;
 
-func = function(){
+var isReady = function(){
   if(window.mobilecheck()===false && document.getElementById('bye').offsetHeight < height){
-    console.log('refreshing');
     skrollr.get().refresh();
   }
   else {
     setTimeout(function () {
-      console.log('waiting');
-      func()
+      isReady()
     }, 500);
   }
 }
 
-func()
+isReady()
 
 $(document).ready(function() {  
   if(window.mobilecheck()===false){
@@ -29,5 +27,4 @@ $(document).ready(function() {
 
 $(window).load(function(){
   height = height + 10;
-  console.log('full load');
 })
