@@ -31,4 +31,4 @@ $(window).load(function(){
   }
 })
 
-document.getElementById('container').style.webkitOverflowScrolling = 'auto';
+//document.getElementById('container').style.webkitOverflowScrolling = 'auto';
