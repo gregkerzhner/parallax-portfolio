@@ -7,28 +7,28 @@ window.mobilecheck = function() {
 var height = document.getElementById('bye').offsetHeight;
 
 var isReady = function(){
-  if(window.mobilecheck() == false){
-    if(document.getElementById('bye').offsetHeight < height){
-      skrollr.get().refresh();
-    }
-    else {
-      setTimeout(function () {
-        isReady()
-      }, 500);
-    }
+  if(window.mobilecheck() ===false && document.getElementById('bye').offsetHeight < height){
+    skrollr.get().refresh();
+  }
+  else {
+    setTimeout(function () {
+      isReady()
+    }, 500);
   }
 }
 
 isReady()
 
 $(document).ready(function() {  
-  if(window.mobilecheck()== false){
+  if(window.mobilecheck()===false){
     skrollr.init({forceHeight: false});
   }
 });
 
 $(window).load(function(){
-  if(window.mobilecheck() == false){
-    height = height + 10;
+  if(window.mobilecheck() ===false ){
+      height = height + 10;
   }
 })
+
+document.getElementById('container').style.webkitOverflowScrolling = 'auto';

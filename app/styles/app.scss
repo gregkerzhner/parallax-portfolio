@@ -31,6 +31,10 @@ html, body {
   overflow-x: hidden !important;
 }
 
+#container {
+  -webkit-overflow-scrolling: touch;
+}
+
 .h1-container {
   position: absolute;
   top: 300px;
