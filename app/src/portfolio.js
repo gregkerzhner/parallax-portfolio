@@ -7,7 +7,7 @@ window.mobilecheck = function() {
 var height = document.getElementById('bye').offsetHeight;
 
 var isReady = function(){
-  if(window.mobilecheck()===false && document.getElementById('bye').offsetHeight < height){
+  if(window.mobilecheck() ===false && document.getElementById('bye').offsetHeight < height){
     skrollr.get().refresh();
   }
   else {
@@ -26,5 +26,7 @@ $(document).ready(function() {
 });
 
 $(window).load(function(){
-  height = height + 10;
+  if(window.mobilecheck() == false ){
+      height = height + 10;
+  }
 })

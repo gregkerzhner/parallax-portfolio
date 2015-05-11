@@ -1,0 +1,10 @@
+        server {
+          root /var/www/parallax-portfolio.com/public;
+          location /images/ {
+           try_files $uri /images/default.gif;
+           }
+
+
+
+
+       }
