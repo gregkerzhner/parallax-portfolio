@@ -56,6 +56,11 @@ html, body {
 .black {
   color: black !important;
 }
+
+.text-shadow {
+  text-shadow: 1px 1px white;  
+}
+
 .pipedream {
   @include full-image('../images/pipedream.jpg', 900px, fixed);
 }
@@ -88,6 +93,10 @@ html, body {
 
 .ideally {
   @include full-image('http://i.imgur.com/GuhdsQz.png', 900px, fixed);
+}
+
+.sponster {
+  @include full-image('http://i.imgur.com/nWDpBAS.png', 900px, fixed);
 }
 
 
@@ -204,6 +213,11 @@ body{
   .ideally {
     @include full-image('http://i.imgur.com/GuhdsQz.png', $imgSize, scroll);
   }
+
+  .sponster {
+    @include full-image('http://i.imgur.com/nWDpBAS.png', $imgSize, scroll);
+  }
+
 
   .cart {
     @include full-image('http://i.imgur.com/1kC5yZL.png', $imgSize, scroll);
@@ -373,6 +387,10 @@ body{
 
   .ideally {
     @include full-image('http://i.imgur.com/GuhdsQz.png', $imgSize, scroll);
+  }
+
+  .sponster {
+    @include full-image('http://i.imgur.com/nWDpBAS.png', $imgSize, scroll);
   }
 
 
