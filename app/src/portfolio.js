@@ -15,16 +15,16 @@ var isReady = function(){
   }
 }
 
-if(window.mobilecheck() ===false) isReady();
+if(!window.mobilecheck()) isReady();
 
 $(document).ready(function() {  
-  if(window.mobilecheck()===false){
+  if(!window.mobilecheck()){
     skrollr.init({forceHeight: false});
   }
 });
 
 $(window).load(function(){
-  if(window.mobilecheck() ===false ){
+  if(!window.mobilecheck()){
     height = height + 10;
   }
 })
