@@ -20,19 +20,13 @@
   src: url("../fonts/LondrinaSolid-Regular.otf");
 }
 
-
-
 body {
   font-family: "din";
+  overflow: hidden;
 }
 
 html, body {
   width: auto !important;
-  overflow-x: hidden !important;
-}
-
-#container {
-  //-webkit-overflow-scrolling: touch;
 }
 
 .h1-container {
@@ -244,7 +238,11 @@ body{
   }
 }
 
-@media all and (min-width: 700px){
+@media all and (min-width: 800px){
+  html, body {
+    overflow-x: hidden !important;
+  }
+
   /*Time to animate*/
   .x1 {
     -webkit-animation: moveclouds 15s linear infinite;
