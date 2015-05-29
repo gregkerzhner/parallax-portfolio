@@ -88,7 +88,7 @@ html, body {
 
 
 .endogo {
-  @include full-image('http://i.imgur.com/hlzxkyh.png', 900px, fixed);
+  @include full-image('http://i.imgur.com/poMzIDe.jpg', 900px, fixed);
 }
 
 .ideally {
@@ -207,7 +207,7 @@ body{
   }
 
   .endogo {
-    @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+    @include full-image('http://i.imgur.com/poMzIDe.jpg', $imgSize, scroll);
   }
 
   .ideally {
@@ -382,7 +382,7 @@ body{
   }
 
   .endogo {
-  @include full-image('http://i.imgur.com/hlzxkyh.png', $imgSize, scroll);
+  @include full-image('http://i.imgur.com/poMzIDe.jpg', $imgSize, scroll);
   }
 
   .ideally {
