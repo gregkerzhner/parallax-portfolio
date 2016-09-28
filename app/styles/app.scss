@@ -99,6 +99,13 @@ html, body {
   @include full-image('http://i.imgur.com/f32urYl.png', 900px, fixed);
 }
 
+.rivals {
+  @include full-image('http://i.imgur.com/HotsFA6.jpg', 900px, fixed);
+}
+
+
+
+
 .ideally {
   @include full-image('http://i.imgur.com/GuhdsQz.png', 900px, fixed);
 }
@@ -216,6 +223,10 @@ body{
 
   .endogo {
     @include full-image('http://i.imgur.com/f32urYl.png', $imgSize, scroll);
+  }
+
+  .rivals {
+    @include full-image('http://i.imgur.com/HotsFA6.jpg', $imgSize, scroll);
   }
 
   .ideally {
@@ -391,6 +402,10 @@ body{
 
   .endogo {
   @include full-image('http://i.imgur.com/f32urYl.png', $imgSize, scroll);
+  }
+
+  .rivals {
+    @include full-image('http://i.imgur.com/HotsFA6.jpg', $imgSize, scroll);
   }
 
   .ideally {
